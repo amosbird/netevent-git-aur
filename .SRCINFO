@@ -1,0 +1,14 @@
+pkgbase = netevent-git
+	pkgdesc = Event device viewing/cloning utility
+	pkgver = 4f16443
+	pkgrel = 1
+	url = https://github.com/amosbird/netevent
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = python-docutils
+	source = git+https://github.com/amosbird/netevent.git
+	sha256sums = SKIP
+
+pkgname = netevent-git
+
