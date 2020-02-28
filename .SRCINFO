@@ -1,6 +1,6 @@
 pkgbase = netevent-git
 	pkgdesc = Event device viewing/cloning utility
-	pkgver = 4f16443
+	pkgver = 99999.4f16443
 	pkgrel = 1
 	url = https://github.com/amosbird/netevent
 	arch = i686

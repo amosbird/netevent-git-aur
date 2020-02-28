@@ -1,6 +1,6 @@
 _pkgbase=netevent
 pkgname=netevent-git
-pkgver=4f16443
+pkgver=99999.4f16443
 pkgrel=1
 pkgdesc="Event device viewing/cloning utility"
 url="https://github.com/amosbird/netevent"
@@ -13,7 +13,7 @@ sha256sums=('SKIP')
 
 pkgver() {
   cd "${srcdir}/netevent"
-  git describe --always
+  echo 99999.$(git describe --always)
 }
 
 prepare() {
